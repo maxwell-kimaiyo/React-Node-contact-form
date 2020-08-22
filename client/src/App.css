@@ -1,0 +1,109 @@
+
+/* css variables */
+@import url(./partials-css/_variables.css);
+/* start navigation */
+
+/* import global styling */
+@import url(./partials-css/_global.css);
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 0rem 0 0rem;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 2rem;
+}
+
+.header_area .main-menu .navbar .dropdown-menu {
+  min-width: 150px;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* end navigation */
+
+/*contact*/
+.contact .content-left h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.contact .content-left ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.contact .content-left ul li a i {
+    font-size: 20px;
+    transition: all .2s ease;
+}
+.contact .content-left ul li:hover a i {
+    color: #525252;
+}
+.contact .content-left ul li:last-child {
+    margin-right: 0;
+}
+.contact .content-right .row {
+    margin-bottom: 30px;
+}
+.contact .content-right .row:last-child {
+    margin-bottom: 0;
+}
+.contact .content-right .row .form-control {
+    border: 0;
+    border-bottom: 1px solid #525252;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    color: #fff;
+}
+.contact .content-right .row .form-control:hover {
+    border-color: #ff8c05;
+}
+.contact .content-right .row .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #ff8c05;
+}
+.contact .content-right .button {
+    margin-top: 30px;
+}
+/* End About Me */
+
+footer.footer-area {
+  padding: 0 3px;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--primary-color);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color2);
+}

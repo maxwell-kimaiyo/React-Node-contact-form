@@ -1,0 +1,57 @@
+/* Global Classes */
+
+.title-text {
+  font: normal bold 50px/ 72px var(--roboto);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+
+.title-h1 {
+  font: normal bold 39px/ 40px var(--roboto);
+}
+
+h2 i {
+  padding-left: 2px;
+}
+
+
+section span.h-span {
+  display: block;
+  color: #999;
+  font-size: 17px;
+}
+
+section h2.h1 {
+  text-transform: uppercase;
+  margin: 5px 0 100px;
+  font: normal bold 49px/ 60px var(--roboto);
+  display: inline-block;
+  position: relative;
+  padding: 0 10px 10px;
+}
+section h2.h1 span.underline {
+  background-color: var(--line-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+section h2.h1 span.underline span {
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: var(--line-color);
+  top: calc(50% - 9px);
+}
+section h2.h1 span.underline span.r-square {
+  right: -18px;
+}
+section h2.h1 span.underline span.l-square {
+  left: -18px;
+}
